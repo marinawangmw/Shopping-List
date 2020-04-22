@@ -1,0 +1,63 @@
+body{
+  margin-top = 20px;
+}
+.container{
+  display: grid;
+  margin-top: 50px;
+  justify-content: center;
+  grid-template-rows:auto auto auto;
+}
+
+.addItem button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+
+input{
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 20px;
+  padding:5px 10px;
+}
+
+.addItem:nth-child(2){
+  margin-top:50px;
+}
+
+.listText:hover{
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+
+
