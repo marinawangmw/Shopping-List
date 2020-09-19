@@ -17,6 +17,7 @@ function createListElement(){
 	addCloseButton(li);
 }
 
+// testing commit
 function addListAfterClick(){
 	if (inputLength() != 0){
 		createListElement();
