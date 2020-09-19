@@ -18,14 +18,12 @@ function createListElement(){
 }
 
 function addListAfterClick(){
-	// var inputLength = input.value.length;
 	if (inputLength() != 0){
 		createListElement();
 	}
 }
 
 function addListAfterKeyPress(event){
-	// var inputLength = input.value.length;
 	if (inputLength() != 0 && event.which === 13){
 		createListElement();
 	}
